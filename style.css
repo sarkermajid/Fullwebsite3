@@ -1,0 +1,250 @@
+.body,h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* Header section */
+
+.my-header .navbar-brand {
+    font-size: 30px;
+    font-weight: 500px;
+}
+.my-header span {
+    background-color: #6278DF;
+    height: 47px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Slider section */
+.slider-section{
+    background-image: url(./image/mbr-10.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 250px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.5);
+    z-index: -1;
+
+}
+
+.slider-caption h4{
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.slider-caption h2{
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
+.slider-caption .form-control{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.slider-caption .btn {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+/* Number counter section */
+.number-counter .h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.number-counter .text-muted{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* About section */
+.about-section{
+    background-color: #F7F9FF;
+}
+.about-content{
+    margin-top: 100px;
+}
+.about-section h2{
+    font-size: 3rem;
+}
+.about-section .lead{
+    font-size: 1.5rem;
+    line-height: 2.7rem;
+}
+
+/* feature section */
+.Head h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.Head p{
+    font-size: 1.5rem;
+    margin-bottom: 100px;
+}
+.feature-item {
+    height: 300px;
+    transition: .5s;
+    border-radius: 5px;
+}
+.feature-item:hover{
+    box-shadow: 4px 5px 40px 0px;
+
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-img-sec img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+.left-img-sec .img3{
+    left: 0px;
+}
+.left-img-sec .img4{
+    left: -120px;
+}
+.right-text-sec{
+    width: 60%;
+    padding: 20px;
+}
+
+/* portfolio hover section */
+
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(98, 120, 223,0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Pricing table section */
+.pricing-table-section{
+    background-color: #F7F9FF ;
+}
+.pricing-item{
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 2px 2px 20px 0px rgba(0,0,0,.2);
+    border-radius: 5px;
+    width: 600px;
+}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 70px;
+}
+.pricing-item ul li{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.pricing-item ul li span{
+    color: #6278DF;
+    display: inline-block;
+    width: 40px;
+    font-size: 30px;
+}
+.pricing-item-btn{
+   
+}
+.pricing-item-btn a {
+    padding: 10px 100px;
+    font-size: 22px;
+    box-shadow: 2px 3px 20px 0px;
+}
+
+/* testomunial section */
+.testomunial-section h4{
+    font-size: 1.5rem;
+}
+.testomunial-section h2{
+    font-size: 3rem;
+}
+.testomunial-section .lead{
+    font-size: 1.8rem;
+    margin-top: 50px;
+}
+.testomunial-section span{
+    font-size: 2rem;
+}
+.author-info {
+    width: 200px;
+    margin: auto;
+}
+.author-info img {
+    width: 100px;
+}
+.author-details {
+    position: relative;
+    top: 20px;
+    margin-right: -20px;
+}
+
+/* about section */
+
+.about-section img{
+    max-width: 100%;
+    width: 130px;
+    margin-left: 15px;
+    margin-top: -60px;
+}
+.about-section a:hover{
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+}
+
+.about-section .aboutp{
+    font-size: 1.3rem;
+}
+
+/* contact us section */
+
+.card{
+    box-shadow: 4px 5px 40px 0px rgba(0,0,0,.2);
+    padding: 50px;
+}
+.contact-us h2{
+    font-size: 2.3rem;
+}
+.contact-us h3{
+    font-size: 2rem;
+}
+.contact-us button{
+    width: 500px;
+}
+
+/* footer section */
+.footer-section{
+    background-color: #F7F9FF  ;
+}
